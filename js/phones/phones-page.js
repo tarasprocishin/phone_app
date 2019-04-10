@@ -16,6 +16,7 @@ export default class PhonesPage {
   }
 
   _render(){
+    console.log('fun');
     this._element.innerHTML = `
     <div class="row">
 
@@ -52,6 +53,4 @@ export default class PhonesPage {
     </div>
     `
   }
-
-
 }

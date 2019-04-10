@@ -12,7 +12,7 @@ export default class PhonesCatalog {
     this._render();
   }
   _render() {
-    console.log(this._phones);
+
     this._element.innerHTML = `
     <ul class="phones">
 
